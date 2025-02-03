@@ -49,11 +49,6 @@ Create a Flask API to serve the climate analysis results. Implement the followin
 #### `/api/v1.0/<start>/<end>`
 - Returns the minimum, average, and maximum temperatures between the `start` and `end` dates.
 
-### Hints
-- Use `join()` to combine `station` and `measurement` tables.
-- Use `jsonify()` to format API responses.
-- Ensure your session is closed after executing queries.
-
 ---
 
 ## To Run the Flask App
